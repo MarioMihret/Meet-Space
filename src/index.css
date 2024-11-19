@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply flex items-center space-x-1 text-gray-300 hover:text-white transition-colors;
+  }
+  
+  .control-button {
+    @apply p-4 rounded-full bg-gray-800 hover:bg-gray-700 transition-colors;
+  }
+}
+
+body {
+  @apply antialiased;
+}
